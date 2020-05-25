@@ -1,2 +1,2 @@
 # eka
-eka repo edot
+eka repo edit
