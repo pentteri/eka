@@ -1,0 +1,13 @@
+note over selain:
+Käyttäjä kirjoittaa uuden noten ja painaa Save
+end note 
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over palvelin:
+palvelin tallettaa noten tietokantaan tms.
+end note
+palvelin-->selain: 201 Created
+
+note over selain:
+javascript lisää uuden noten sivulle,
+käyttäjä näkee päivittyneen sivun
+end note
